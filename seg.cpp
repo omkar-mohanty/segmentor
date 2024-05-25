@@ -25,6 +25,8 @@ int main(int argc, char** argv)
     }
     
     Path dir_path;
+    Path parent_dir = Path("../");
+
     bool dir;
     if (argc == 4)
     {
@@ -47,6 +49,8 @@ int main(int argc, char** argv)
     const std::string filename =  argv[1] ;
     const std::size_t number_of_clusters = std::stoi(argv[2]);
     const double smoothning = std::stoi(argv[3]);
+
+    
 
     if (!dir)
     {
