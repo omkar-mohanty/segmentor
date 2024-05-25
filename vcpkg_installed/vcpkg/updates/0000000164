@@ -1,0 +1,8 @@
+Package: gmp
+Version: 6.3.0
+Depends: gmp, vcpkg-cmake-get-vars
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 09607382853e6b0dc0281e5fbc18555676e9fec161f3316087934f5d9b781d22
+Description: The GNU Multiple Precision Arithmetic Library
+Status: install ok half-installed

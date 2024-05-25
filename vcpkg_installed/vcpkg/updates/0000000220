@@ -1,0 +1,8 @@
+Package: boost-container
+Version: 1.85.0
+Depends: boost-assert, boost-cmake, boost-config, boost-headers, boost-intrusive, boost-move
+Architecture: x64-windows
+Multi-Arch: same
+Abi: ac7dba75449a8126b0eda23ac65e40b7a8904cedb5c03902a764cdab04a0ee55
+Description: Boost container module
+Status: install ok half-installed

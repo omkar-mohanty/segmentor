@@ -1,0 +1,8 @@
+Package: boost-endian
+Version: 1.85.0
+Depends: boost-cmake, boost-config, boost-headers
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 3ecb03d9d1c31a73e36da0acf271778aa49d0c5a3228a07f91a169d1ef197cd0
+Description: Boost endian module
+Status: install ok installed

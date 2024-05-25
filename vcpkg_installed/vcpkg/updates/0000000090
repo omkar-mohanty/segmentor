@@ -1,0 +1,6 @@
+Package: qt5-declarative
+Feature: d3d12
+Architecture: x64-windows
+Multi-Arch: same
+Description: Provides a Direct3D 12 backend for the scenegraph.
+Status: install ok installed

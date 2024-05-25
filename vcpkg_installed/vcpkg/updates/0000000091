@@ -1,0 +1,7 @@
+Package: qt5-declarative
+Feature: platform-default-features
+Depends: qt5-declarative
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable platform-dependent default features
+Status: install ok installed

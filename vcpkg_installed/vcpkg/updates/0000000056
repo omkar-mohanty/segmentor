@@ -1,0 +1,9 @@
+Package: qt5-base
+Version: 5.15.13
+Port-Version: 2
+Depends: double-conversion, egl-registry, freetype, harfbuzz, libjpeg-turbo, libpng, openssl, pcre2, qt5-base, sqlite3, vcpkg-cmake-get-vars, vcpkg-pkgconfig-get-modules, zlib, zstd
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 51491805a6ce6990dcc03161eac47388eadeaffd11d2825bd11d17d916354797
+Description: Qt Base provides the basic non-GUI functionality required by all Qt applications.
+Status: install ok half-installed

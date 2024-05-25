@@ -1,0 +1,9 @@
+Package: qt5-3d
+Version: 5.15.13
+Port-Version: 1
+Depends: assimp, qt5-base, qt5-declarative, qt5-gamepad, qt5-imageformats, vcpkg-pkgconfig-get-modules
+Architecture: x64-windows
+Multi-Arch: same
+Abi: c1794aefc876c4a12237dd4489d492832351a938c429b402e29ef43be590c41a
+Description: Qt 3D provides functionality for near-realtime simulation systems with support for 2D and 3D rendering in both Qt C++ and Qt Quick applications.
+Status: install ok installed

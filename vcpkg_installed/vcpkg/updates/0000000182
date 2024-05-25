@@ -1,0 +1,8 @@
+Package: boost-typeof
+Version: 1.85.0
+Depends: boost-cmake, boost-config, boost-headers
+Architecture: x64-windows
+Multi-Arch: same
+Abi: df207f5298bf883c9fb1826a2a6e5130ba2975f91aca4177e43c44cf30580adf
+Description: Boost typeof module
+Status: install ok half-installed

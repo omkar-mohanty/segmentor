@@ -1,0 +1,9 @@
+Package: qt5-script
+Version: 5.15.13
+Port-Version: 1
+Depends: qt5-base, qt5-tools
+Architecture: x64-windows
+Multi-Arch: same
+Abi: b6b8cd7bfbc439f2fde01292054673102643118e9f9818618aa14019d2bd4919
+Description: Qt Script provides support for application scripting with ECMAScript.
+Status: install ok installed

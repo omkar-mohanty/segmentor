@@ -1,0 +1,10 @@
+Package: qt5-declarative
+Version: 5.15.13
+Port-Version: 1
+Depends: qt5-base, qt5-imageformats, qt5-svg
+Architecture: x64-windows
+Multi-Arch: same
+Abi: bfb0624fb07afcf129e1aec4a479859e96fec6966c7ac6826684a652f9755c83
+Description: Qt Declarative (Quick 2)
+Default-Features: platform-default-features
+Status: install ok half-installed

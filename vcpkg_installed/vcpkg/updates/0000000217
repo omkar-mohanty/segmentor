@@ -1,0 +1,8 @@
+Package: boost-random
+Version: 1.85.0
+Depends: boost-array, boost-assert, boost-cmake, boost-config, boost-core, boost-dynamic-bitset, boost-headers, boost-integer, boost-io, boost-range, boost-static-assert, boost-system, boost-throw-exception, boost-type-traits, boost-utility
+Architecture: x64-windows
+Multi-Arch: same
+Abi: c5e1ad1b2919ff3ae8fdf6c6d9e4a86cda98da148f0fdb9d9be25abeace7e9fd
+Description: Boost random module
+Status: install ok installed

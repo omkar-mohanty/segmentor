@@ -1,0 +1,9 @@
+Package: qt5-tools
+Version: 5.15.13
+Port-Version: 1
+Depends: qt5-activeqt, qt5-base, qt5-declarative
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 5ad7b3be7193adff5678ff79b32200719568c6fa28bf0cce181649218e997092
+Description: A collection of tools and utilities that come with the Qt framework to assist developers in the creation, management, and deployment of Qt applications.
+Status: install ok half-installed

@@ -1,0 +1,9 @@
+Package: harfbuzz
+Version: 8.5.0
+Depends: vcpkg-tool-meson
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 0111ec759353def99b99e3df23a38e4744cbd7f54248275c12b4cd01031556bc
+Description: HarfBuzz OpenType text shaping engine
+Default-Features: freetype
+Status: install ok installed

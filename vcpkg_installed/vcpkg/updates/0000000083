@@ -1,0 +1,10 @@
+Package: qt5-imageformats
+Version: 5.15.13
+Port-Version: 2
+Depends: qt5-base
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 133bc4f2246aaccd592c2863687b77488dba714c9c10fac42600c8ca5c4349b3
+Description: The Qt Image Formats add-on module provides optional support for other image file formats.
+Default-Features: tiff, webp
+Status: install ok installed

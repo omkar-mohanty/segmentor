@@ -1,0 +1,8 @@
+Package: boost-preprocessor
+Version: 1.85.0
+Depends: boost-cmake, boost-config, boost-headers
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 5b8acfe16913098c61bd1aea9f901f597986f70223c2cd284a55194366b19625
+Description: Boost preprocessor module
+Status: install ok installed

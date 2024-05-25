@@ -1,0 +1,7 @@
+Package: cgal
+Feature: qt
+Depends: boost-format, eigen3, qt5-3d, qt5-base, qt5-script, qt5-svg, qt5-xmlpatterns
+Architecture: x64-windows
+Multi-Arch: same
+Description: Qt GUI support for CGAL
+Status: install ok installed

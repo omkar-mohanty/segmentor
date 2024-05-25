@@ -1,0 +1,8 @@
+Package: boost-qvm
+Version: 1.85.0
+Depends: boost-cmake, boost-config, boost-headers
+Architecture: x64-windows
+Multi-Arch: same
+Abi: a1ced8f97f0d9c8c5e797cac06551c44a7a5bceed18bfc5cb97ece2466a4e93a
+Description: Boost qvm module
+Status: install ok installed

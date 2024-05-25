@@ -1,0 +1,8 @@
+Package: boost-proto
+Version: 1.85.0
+Depends: boost-cmake, boost-config, boost-core, boost-fusion, boost-headers, boost-mpl, boost-preprocessor, boost-range, boost-static-assert, boost-type-traits, boost-typeof, boost-utility
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 1e33144b41a19dcfabba926eff2c458c3ef60eea6ae89d0cb94155af141be584
+Description: Boost proto module
+Status: install ok half-installed

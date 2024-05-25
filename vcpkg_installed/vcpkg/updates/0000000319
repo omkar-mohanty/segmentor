@@ -1,0 +1,8 @@
+Package: boost-callable-traits
+Version: 1.85.0
+Depends: boost-cmake, boost-config, boost-headers
+Architecture: x64-windows
+Multi-Arch: same
+Abi: c0ad1b08bd1b01dbcb34f3c180d9389cdb2f2f3909787312b8f9223c7744b566
+Description: Boost callable_traits module
+Status: install ok installed

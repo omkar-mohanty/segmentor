@@ -1,0 +1,8 @@
+Package: boost-container-hash
+Version: 1.85.0
+Depends: boost-cmake, boost-config, boost-describe, boost-headers, boost-mp11
+Architecture: x64-windows
+Multi-Arch: same
+Abi: b3bd86088ea38dc0d703d4ccfcaf0fcfc432af418f34854677e01f2794c14137
+Description: Boost container_hash module
+Status: install ok installed
