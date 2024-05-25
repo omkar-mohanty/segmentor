@@ -12,22 +12,41 @@
 typedef CGAL::Exact_predicates_inexact_constructions_kernel Kernel;
 typedef CGAL::Surface_mesh<Kernel::Point_3> SM;
 typedef boost::graph_traits<SM>::face_descriptor face_descriptor;
+
+using Path = std::filesystem::path;
+
 int main(int argc, char** argv)
 {
-    if (argc < 3)
+    if (argc < 4 )
     {
         std::cout << "Usage\n";
         std::cout << "./seg.exe filename starting_clusters smoothning_lambda out_dir_name\n";
+        return EXIT_FAILURE;
+    }
+    
+    Path dir_path;
+    bool dir;
+    if (argc == 4)
+    {
+        dir_path = std::filesystem::path("debug_segments");
+    }
+    else {
+        dir_path = std::filesystem::path(argv[4]);
+    }
+
+    if (std::filesystem::exists(dir_path)) {
+        std::filesystem::current_path(dir_path);
+        dir = true;
+    }
+    else
+    {
+        dir = std::filesystem::create_directory(dir_path);
+        std::filesystem::current_path(dir_path);
     }
 
     const std::string filename =  argv[1] ;
     const std::size_t number_of_clusters = std::stoi(argv[2]);
     const double smoothning = std::stoi(argv[3]);
-    auto dir_path = std::filesystem::path(argv[4]);
-
-    std::filesystem::current_path(dir_path);
-
-    auto dir = std::filesystem::create_directory(dir_path);
 
     if (!dir)
     {
