@@ -11,11 +11,12 @@ endif()
 set(CMAKE_CXX_STANDARD 17)
 project ("seg")
 find_package(CGAL REQUIRED OPTIONAL_COMPONENTS Qt5)
+find_package(BOOST COMPONENTS program_options REQUIRED)
 set(CPACK_SET_DESTDIR true)
 add_executable("seg" seg.cpp)
-set(BUILD_SHARED_LIBS OFF)
-set(CMAKE_EXE_LINKER_FLAGS "-static")
-target_link_libraries("seg" PUBLIC CGAL::CGAL CGAL::CGAL_Basic_viewer -static)
+
+
+target_link_libraries("seg" PUBLIC CGAL::CGAL CGAL::CGAL_Basic_viewer)
 include(InstallRequiredSystemLibraries)
 
 set(CPACK_SOURCE_GENERATOR "WIX")

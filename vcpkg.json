@@ -1,3 +1,3 @@
 {
-  "dependencies": [{"name": "cgal", "features": ["qt"]}]
+  "dependencies": [{"name": "cgal", "features": ["qt"]}, {"name": "boost"}]
 }
